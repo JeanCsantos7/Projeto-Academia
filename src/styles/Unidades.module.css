@@ -1,0 +1,219 @@
+
+
+.ContainerPrincipal{
+
+    background-color: #FF383E;
+    width: 100%;
+    height: 835px;
+    object-fit: cover;
+   
+}
+
+.Titulo{
+    font-family: "Anton", sans-serif;
+    font-size: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+   padding-top: 8%;
+
+}
+
+.linhaPrincipal{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   margin-top: 1.5%;
+    width: 25%;
+    height: 3px;
+    background-color: rgb(4, 4, 4);
+    border: none;
+    outline: none;
+}
+
+.Informacoes, .btn, .unidades, .endereco, .funcionamento{
+
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+.Informacoes{
+    
+    width: 35%;
+    color: #FFF;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.btnUnidade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    
+}
+
+.btn{
+    width: 213px;
+    height: 35px;
+    font-weight: 600;
+    background-color: rgb(4, 4, 4);
+    color: #FFF;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.containerSelect{
+    width: 315px;
+    height: 35px;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(4, 4, 4);
+    color:  #ffffff;
+}
+
+
+.ContainerUnidades{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2.5%;
+    border-radius: 9px;
+    background-color: rgb(4, 4, 4);
+    height: 255px;
+    width:596px;
+}
+.ContainerCards{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.unidades{
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 100%;
+    margin-left: 8%;
+    margin: 5%;
+}
+
+.linhaSegundaria{
+    border: none;
+    outline: none;
+    margin-top: 1.5%;
+    width: 95%;
+    height: 3px;
+    margin-left: 5%;
+    background-color: #FF383E;
+}
+
+
+.endereco{
+color: #FFF;
+font-size: 14.5px;
+margin-left: 8%;
+margin: 5%;
+
+}
+
+.funcionamento{
+    color: #FFF;
+font-size: 14.5px;
+margin-left: 8%;
+margin: 5%;
+}
+
+
+.imagemCards{
+    width: 95%;
+    padding: 4%;
+
+}
+
+@media screen and (max-width:758px)
+{
+
+
+    .ContainerPrincipal{
+
+        height: 950px;
+    
+    }
+
+
+    
+    .Titulo{
+       
+        font-size: 65px;
+       
+    
+    }
+
+    .unidades{
+        font-size: 19px;
+       
+    }
+
+    .linhaPrincipal{
+        width: 69%;
+    }
+
+
+    .Informacoes{
+    
+        width: 78%;
+      
+        text-align: center;
+      
+    }
+
+
+    .containerSelect{
+       margin-top: 9%;
+    }
+
+    .btn{
+        margin-top: 9%;
+    }
+
+
+    .ContainerUnidades
+    {
+        height: 485px;
+        width: 86%;
+        margin-top: 8.5%;
+        flex-direction: column;
+       
+    }
+
+    .linhaSegundaria{
+      
+        width: 75%;
+      
+    }
+
+    .imagemCards{
+        width: 95%;
+        padding: 2%;
+        margin-top: 6%;
+        margin: 0 auto;
+    
+    }
+
+    .endereco{
+        font-size: 17px;
+    }
+
+    .funcionamento{
+        font-size: 17px;
+    }
+  
+}

@@ -1,0 +1,115 @@
+
+
+.Container{
+    background-color: rgb(4, 4, 4);
+    width: 100%;
+    height: 835px;
+}
+
+
+
+.Titulo{
+    font-family: "Anton", sans-serif;
+    font-size: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+   padding-top: 8%;
+
+}
+
+.textoVermelho{
+
+    color: #FF383E;
+}
+
+.ContainerCard{
+    display: flex;
+    gap: 8%;
+    margin-top: 7%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card1{
+    width: 280px;
+    height: 280px;
+    background-image: url(../assets/FITDANCE.png);
+    background-size: cover;
+    cursor: pointer;
+    
+}
+
+.Card2{
+    width: 280px;
+    height: 280px;
+    background-image: url(../assets/PILATES.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.Card3{
+    width: 280px;
+    height: 280px;
+    background-image: url(../assets/MUSCULAÇÃO.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.TituloCard{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    color: #ffffff;
+    margin-top: 40%;
+    text-align: center;
+}
+
+
+@media screen and (max-width:758px)
+{
+
+
+    .Container{
+
+        height: 1550px;
+    
+    }
+
+
+    
+    .Titulo{
+       
+        font-size: 65px;
+       
+    
+    }
+
+
+    .ContainerCard{
+        flex-direction: column;
+      
+    }
+
+    .Card1{
+        width: 315px;
+        height: 315px;
+        margin: 8%;
+        
+        
+    }
+    
+    .Card2{
+        width: 315px;
+        height: 315px;
+        margin: 8%;
+  
+    }
+    
+    .Card3{
+        width: 315px;
+        height: 315px;
+     
+    }
+  
+}
