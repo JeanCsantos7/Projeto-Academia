@@ -1,6 +1,6 @@
 
 
-import Home from "./Pages/Home"
+
 import Rotas from "./routes"
 
 
