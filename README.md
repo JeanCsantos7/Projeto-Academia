@@ -33,6 +33,8 @@ Gerenciamento de estados, gerando um funcionamento dinâmico
 
 Roteamento de Páginas
 
+Rotas Privadas
+
 ## 🔨 Ferramentas
 
 Vite + React Js
