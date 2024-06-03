@@ -1,151 +1,117 @@
-
-.Container{
-    background-image: url(../assets/academiabackground.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 700px;
+.Container {
+  background-image: url(../assets/academiabackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
 }
 
-.Titulo{
-    font-family: "Anton", sans-serif;
-    font-size: 75px;
-    font-weight: 400;
-    font-style: normal;
-    padding: 3%;
-    padding-top: 6%;
-    margin-left: 6%;
+.Titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 75px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 3%;
+  padding-top: 6%;
+  margin-left: 6%;
 }
 
-.span1{
-    color: #FF383E;
-    
+.span1 {
+  color: #ff383e;
 }
 
-.span2{
-    color: #FFF;
+.span2 {
+  color: #fff;
 }
 
-.FooterDesktop{
-  background-color: #FF383E;
+.FooterDesktop {
+  background-color: #ff383e;
   margin-top: 9%;
   height: 185px;
   width: 100%;
 }
 
-
-.CardFooter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 11%;
-    padding-top: 4%;
+.CardFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11%;
+  padding-top: 4%;
 }
 
-.icone{
-    font-size: 35px;
-    color: #FFF;
-    cursor: pointer;
+.icone {
+  font-size: 35px;
+  color: #fff;
+  cursor: pointer;
 }
 
-.RedesSociais{
-    display: flex;
-    gap: 12%;
-    margin-top: 5%;
-    align-items: center;
-    color: #FFF;
+.RedesSociais {
+  display: flex;
+  gap: 12%;
+  margin-top: 5%;
+  align-items: center;
+  color: #fff;
 }
 
-.Email_Endereco{
-    display: flex;
-    align-items: center;
-    margin-top: 5%;
-    
-    
+.Email_Endereco {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
 }
 
-.TituloCard{
-    font-family: "Anton", sans-serif;
-  
-    text-transform: uppercase;
-    font-size: 32px;
+.TituloCard {
+  font-family: "Anton", sans-serif;
+
+  text-transform: uppercase;
+  font-size: 32px;
 }
 
-.dados{
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    color: #FFF;
+.dados {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #fff;
 }
 
-.FooterMobile{
-    display: none;
+.FooterMobile {
+  display: none;
 }
 
+@media screen and (max-width: 758px) {
+  .Titulo {
+    font-size: 65px;
+    padding-top: 29%;
+  }
 
-
-
-
-@media screen and (max-width:758px)
-{
-
-
-   
-
-    
-    .Titulo{
-       
-        font-size: 65px;
-        padding-top: 29%;
-      
-       
-    
-    }
-
-  .CardFooter{
+  .CardFooter {
     flex-direction: column;
   }
 
-    .FooterDesktop{
-      display: none;
-    }
+  .FooterDesktop {
+    display: none;
+  }
 
+  .FooterMobile {
+    display: block;
+    background-color: #ff383e;
+    margin-top: 26%;
+    height: 295px;
+    width: 100%;
+  }
 
-  
-    .FooterMobile{
-        display: block;
-        background-color: #FF383E;
-        margin-top: 26%;
-        height: 295px;
-        width: 100%;
-    }
+  .Logotipo {
+    color: #fff;
+    font-size: 75px;
+    margin-top: 6%;
+  }
 
-    .Logotipo{
-        color: #FFF;
-        font-size: 75px;
-        margin-top: 6%;
-    }
+  .RedesSociais {
+    margin-top: 9%;
+    gap: 13%;
+  }
 
-
-    .RedesSociais{
-      
-        margin-top: 9%;
-        gap:13%;
-   
-  
-    }
-
-    .icone{
-        font-size: 85px;
-       color: rgb(255, 255, 255);
-        border-radius: 65%;
-        padding: 6%;
-       
-    
-    }
-
-  
-
-   
-  
-
-  
+  .icone {
+    font-size: 85px;
+    color: rgb(255, 255, 255);
+    border-radius: 65%;
+    padding: 6%;
+  }
 }

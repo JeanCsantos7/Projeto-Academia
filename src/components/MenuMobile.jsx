@@ -1,11 +1,9 @@
-
-import styleMenu from "../styles/MenuMobile.module.css"
-
+import styleMenu from "../styles/MenuMobile.module.css";
 
 export default function MenuMobile() {
   return (
     <>
-     <nav className={styleMenu.nav}>
+      <nav className={styleMenu.nav}>
         <a className={styleMenu.Link} href="#Modalidades">
           Modalidades
         </a>
@@ -15,11 +13,7 @@ export default function MenuMobile() {
         <a className={styleMenu.Link} href="#Depoimentos">
           Depoimentos
         </a>
-     
-    
-      </nav> 
-
-  
+      </nav>
     </>
   );
 }

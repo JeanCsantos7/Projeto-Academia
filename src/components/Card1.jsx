@@ -1,6 +1,5 @@
 import styleModalidades from "../styles/Modalidades.module.css";
 
-
 export default function Card1() {
   return (
     <>

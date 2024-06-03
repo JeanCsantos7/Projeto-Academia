@@ -1,176 +1,137 @@
-
-  
-
-.body{
-    background-image: url(../assets/BackgroundLogin.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 900px;
+.body {
+  background-image: url(../assets/BackgroundLogin.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 900px;
 }
 
-.LogotipoContainer{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 13%;
-  
+.LogotipoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 13%;
 }
 
-.Icone{
-    font-size: 50px;
-    color: #FF383E;
+.Icone {
+  font-size: 50px;
+  color: #ff383e;
 }
 
-.TituloNav{
-    font-family: "Anton", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    font-style: normal;
-    color: #FFF;
+.TituloNav {
+  font-family: "Anton", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
 }
 
-.Titulo{
-    font-family: "Montserrat", sans-serif;
-    font-size: 25px;
-    text-align: center;
-  
-    color: #FFF;
-   padding-top: 2%;
+.Titulo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  text-align: center;
 
+  color: #fff;
+  padding-top: 2%;
 }
 
+.Container {
+  display: flex;
 
-.Container{
-    display: flex;
-    
-    margin: 0 auto;
-    width: 380px;
-    height: 459px;
-    margin-top: 8%;
-    background-color: #FF383E;
+  margin: 0 auto;
+  width: 380px;
+  height: 459px;
+  margin-top: 8%;
+  background-color: #ff383e;
 }
 
-.inputsContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2%;
-    
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
 }
 
-
-
-
-.inputCampoTexto, .inputSenha {
-    width: 250px;
-    height: 34px;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    padding: 1%;
-    
-
-    
+.inputCampoTexto,
+.inputSenha {
+  width: 250px;
+  height: 34px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 1%;
 }
 
-.inputSenha{
-    margin-top: 1.2%;
+.inputSenha {
+  margin-top: 1.2%;
 }
 
-.botao{
-    font-family: "Montserrat", sans-serif;
-    width: 250px;
-    height: 34px;
-    margin-top: 1%;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    background-color: #FF383E;
-    color: #FFF;
-    font-weight: 600;
-    border-radius: 5px;
+.botao {
+  font-family: "Montserrat", sans-serif;
+  width: 250px;
+  height: 34px;
+  margin-top: 1%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #ff383e;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
 }
 
-.usuarioIncorreto{
-    font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    color: #FF383E;
-    font-weight: 800;
-    padding: 2%;
-    text-align: center;
- 
-}
-
-.ContainerSenha{
-    background-color: #f2dede;
-    margin-top: 2%;
-    height: 35px;
-    width: 290px;
-   
-
-}
-
-.textoLogin{
-    font-family: "Montserrat", sans-serif;
-    color: #fff;
-    text-decoration: none;
-}
-
-.Logar{
-    text-decoration: none;
-    margin-top: 1.5%;
-}
-
-
-
-
-@media screen and (max-width:758px)
-{
-    
-    
-.LogotipoContainer{
-
-  
-    padding-top: 50%;
-  
-}
-
-.inputsContainer{
- 
-    margin-top: 5%;
-    
-}
-
-.inputCampoTexto, .inputSenha {
-   
-    margin: 5%;
-    font-size: 16px;
-    
-
-    
-}
-
-.botao{
- 
-    margin-top: 2.5%;
-   
-}
-
-.textoLogin{
+.usuarioIncorreto {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #ff383e;
+  font-weight: 800;
+  padding: 2%;
   text-align: center;
 }
 
-
-.Container{
-  
-    height: 159px;
-
+.ContainerSenha {
+  background-color: #f2dede;
+  margin-top: 2%;
+  height: 35px;
+  width: 290px;
 }
-    
-  
 
-   
+.textoLogin {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.Logar {
+  text-decoration: none;
+  margin-top: 1.5%;
+}
+
+@media screen and (max-width: 758px) {
+  .LogotipoContainer {
+    padding-top: 50%;
+  }
+
+  .inputsContainer {
+    margin-top: 5%;
+  }
+
+  .inputCampoTexto,
+  .inputSenha {
+    margin: 5%;
+    font-size: 16px;
+  }
+
+  .botao {
+    margin-top: 2.5%;
+  }
+
+  .textoLogin {
+    text-align: center;
+  }
+
+  .Container {
+    height: 159px;
+  }
 }

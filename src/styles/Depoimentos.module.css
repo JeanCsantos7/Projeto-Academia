@@ -1,88 +1,71 @@
-
-
-.Container{
-
-
-    background-color: rgb(4, 4, 4);
-    width: 100%;
-    height: 835px;
-    object-fit: cover;
-
+.Container {
+  background-color: rgb(4, 4, 4);
+  width: 100%;
+  height: 835px;
+  object-fit: cover;
 }
 
-.Titulo{
-    font-family: "Anton", sans-serif;
-    font-size: 75px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FF383E;
-   padding-top: 8%;
+.Titulo {
+  font-family: "Anton", sans-serif;
+  font-size: 75px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ff383e;
+  padding-top: 8%;
 }
 
-.ContainerCard{
-    display: flex;
+.ContainerCard {
+  display: flex;
 }
 
-.CardDepoimento{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-    background-color: rgb(4, 4, 4);
-    border: 2px solid #FFF;
-    width: 280px;
-    height: 380px;
-    margin-top: 6%;
-    border-radius: 12px;
+.CardDepoimento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: rgb(4, 4, 4);
+  border: 2px solid #fff;
+  width: 280px;
+  height: 380px;
+  margin-top: 6%;
+  border-radius: 12px;
 }
 
-.Informacoes, .Autor{
-
-    font-family: "Montserrat", sans-serif;
+.Informacoes,
+.Autor {
+  font-family: "Montserrat", sans-serif;
 }
 
-.Informacoes{
-  
-    font-weight: 500;
-    font-size: 14.5px;
-    text-align: left;
-    padding: 4%;
-    width: 85%;
-    color: #FFF;
+.Informacoes {
+  font-weight: 500;
+  font-size: 14.5px;
+  text-align: left;
+  padding: 4%;
+  width: 85%;
+  color: #fff;
 }
 
-.Autor{
-  color: #FF383E;
+.Autor {
+  color: #ff383e;
   text-align: left;
   padding-right: 45%;
   margin-top: 7%;
 }
 
-@media screen and (max-width:758px)
-{
+@media screen and (max-width: 758px) {
+  .Titulo {
+    font-size: 65px;
+  }
 
-    .Titulo{
-      
-        font-size: 65px;
-       
-    }
+  .Container {
+    background-color: rgb(4, 4, 4);
+    width: 100%;
+    height: 1500px;
+    object-fit: cover;
+  }
 
-
-
-    .Container{
-
-
-        background-color: rgb(4, 4, 4);
-        width: 100%;
-        height: 1500px;
-        object-fit: cover;
-    
-    }
-
-    
-    .ContainerCard{
-        flex-direction: column;
-    }
-  
+  .ContainerCard {
+    flex-direction: column;
+  }
 }

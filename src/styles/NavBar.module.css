@@ -1,101 +1,83 @@
-
-
-.ContainerNav{
-    display: flex;
-    align-items: center;
+.ContainerNav {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-    margin-left: 6%;
-
+  margin-left: 6%;
 }
 
-.Logotipos{
-    display: flex;
-    padding: 2%;
-    
+.Logotipos {
+  display: flex;
+  padding: 2%;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    gap: 7%;
-    padding: 6%;
-    
-    margin-right: 5%;
-  
+nav {
+  display: flex;
+  align-items: center;
+  gap: 7%;
+  padding: 6%;
+
+  margin-right: 5%;
 }
 
-.Link{
-
-     font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    color: #FF383E;
-    text-decoration: none;
-    
-
+.Link {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #ff383e;
+  text-decoration: none;
 }
 
-.Link:hover{
-    transition: 670ms ease-in-out;
-    color: #FFF;
-    border-bottom: 2px solid #FF383E;
+.Link:hover {
+  transition: 670ms ease-in-out;
+  color: #fff;
+  border-bottom: 2px solid #ff383e;
 }
 
-.IconeEntrar{
-    text-decoration: none;
-    font-size: 45px;
-    color: #FF383E;
-    cursor: pointer;
+.IconeEntrar {
+  text-decoration: none;
+  font-size: 45px;
+  color: #ff383e;
+  cursor: pointer;
 }
 
-.Icone{
-    font-size: 50px;
-    color: #FF383E;
+.Icone {
+  font-size: 50px;
+  color: #ff383e;
 }
 
-.TituloNav{
-    font-family: "Anton", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    font-style: normal;
-    color: #FFF;
+.TituloNav {
+  font-family: "Anton", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
 }
 
-.MenuMobile{
+.MenuMobile {
   display: none;
 }
 
-@media screen and (max-width:758px)
-{
-    
-    
-    
-   nav{
+@media screen and (max-width: 758px) {
+  nav {
     margin-top: 6%;
-    
-   }
+  }
 
-   .Logotipos{
-   margin-top: 6%;
-    
-}
-    
-    
-    
-    .MenuMobile{
-        display: block;
-        color: #FF383E;
-        font-size: 38px;
-        cursor: pointer;
-    }
+  .Logotipos {
+    margin-top: 6%;
+  }
 
-    .Link{
-        display: none;
-    }
+  .MenuMobile {
+    display: block;
+    color: #ff383e;
+    font-size: 38px;
+    cursor: pointer;
+  }
 
-    .IconeEntrar{
-      
-        font-size: 35px;
-       
-    }
+  .Link {
+    display: none;
+  }
+
+  .IconeEntrar {
+    font-size: 35px;
+  }
 }

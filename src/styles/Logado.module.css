@@ -1,123 +1,106 @@
-
-
-.logoContainer{
-    display: flex;
-    align-items: center;
-
+.logoContainer {
+  display: flex;
+  align-items: center;
 }
 
-.Container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2%;
- 
+.Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
 }
 
-.Icone{
-    font-size: 50px;
-    color: #FF383E;
+.Icone {
+  font-size: 50px;
+  color: #ff383e;
 }
 
-.TituloNav{
-    font-family: "Anton", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-    font-style: normal;
-    color: #FFF;
+.TituloNav {
+  font-family: "Anton", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
 }
 
-.body{
-    background-image: url(../assets/BackgroundLogin.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 1200px;
+.body {
+  background-image: url(../assets/BackgroundLogin.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1200px;
 }
 
-.Sair{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 23px;
-    color: #FFF;
-    text-decoration: none;
+.Sair {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+  color: #fff;
+  text-decoration: none;
 }
 
-.ContainerCard{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3%;
-    margin-top: 1%;
-    margin: 4%;
-   
+.ContainerCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+  margin-top: 1%;
+  margin: 4%;
 }
 
-.Card{
-    width: 285px;
-    height: 255px;
-    margin: 0 auto;
-    border-radius: 12.5px;
-    cursor: pointer;
-    text-align: center;
-    background-color: #FF383E;
-    padding: 3.5%;
+.Card {
+  width: 285px;
+  height: 255px;
+  margin: 0 auto;
+  border-radius: 12.5px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #ff383e;
+  padding: 3.5%;
 }
 
-.IconesCard{
-    font-size: 65px;
-    color: #FFF;
-    text-align: center;
-    margin-top: 9.5%;
-    
+.IconesCard {
+  font-size: 65px;
+  color: #fff;
+  text-align: center;
+  margin-top: 9.5%;
 }
 
-.TituloCard{
-    font-family: "Montserrat", sans-serif;
-    font-size: 23px;
-    margin-top: 16%;
-    color: #FFF;
+.TituloCard {
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  margin-top: 16%;
+  color: #fff;
 }
 
+.EstiloProp {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  margin-left: 87%;
+  padding-top: 7%;
+}
 
-.EstiloProp{
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 16px;
+@media screen and (max-width: 758px) {
+  .body {
+    height: 2290px;
+  }
+
+  .Container {
+    padding: 8%;
+  }
+
+  .ContainerCard {
+    flex-direction: column;
+  }
+
+  .Card {
+    margin: 8%;
+  }
+
+  .EstiloProp {
     margin-left: 55%;
     padding-top: 7%;
-    color: rgb(255, 255, 255);
-}
-
-
-@media screen and (max-width:758px)
-{
-    
-
-    .body{
-        height: 2290px;
-    }
-
-    .Container{
-   
- 
-        padding: 8%;
-     
-    }
-
-
-    
-    .ContainerCard{
-       flex-direction: column;
-       
-       
-    }
-
-    .Card{
-        margin: 8%;
-    }
-    
-  
-
-   
+  }
 }

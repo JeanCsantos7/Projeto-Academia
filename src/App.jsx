@@ -1,26 +1,11 @@
-
-
-
-import Rotas from "./routes"
-
+import Rotas from "./routes";
 
 function App() {
-
-
   return (
     <>
-
-    
-
- <Rotas></Rotas>
-        
-      
-
-
-  
-
+      <Rotas></Rotas>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
