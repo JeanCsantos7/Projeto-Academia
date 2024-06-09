@@ -21,7 +21,7 @@ export default function Logado({ propLogado }) {
             <h1 className={styleLogado.TituloNav}>GOES GYM</h1>
           </span>
 
-          <Link className={styleLogado.Sair} to={"/"}>
+          <Link className={styleLogado.Sair} to={"/Login"}>
             <p>Sair</p>
           </Link>
         </div>
